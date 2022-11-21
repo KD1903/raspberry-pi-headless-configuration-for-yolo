@@ -57,6 +57,27 @@ password
 -----------------------------------------------------------------
 
 ###make python virtual environment
+$pip3 install virtualenv virtualenvwrapper
+$nano ~/.bashrc
+
+**add following lines at end of file**
+
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_ENV_BIN_DIR=bin
+
+$source ~/.bashrc
+
+**make vietual env**
+$mkvirtualenv main
+
+**to activate env**
+$workon main
+
+**reference** https://raspberrypi-guide.github.io/programming/create-python-virtual-environment
 
 -----------------------------------------------------------------
+
 enjoy!!!
