@@ -75,8 +75,8 @@ $mkvirtualenv -p python3.8 envname
 **to activate env**  
 $workon main
 
-[**raspberry pi reference**] (https://raspberrypi-guide.github.io/programming/create-python-virtual-environment)  
-[**python virtual wrapper reference**] (https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)
+[**raspberry pi reference**](https://raspberrypi-guide.github.io/programming/create-python-virtual-environment)  
+[**python virtual wrapper reference**](https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)
 
 ---
 
