@@ -3,13 +3,13 @@
 install os in memory card  
 insert memory cary in laptop -> open boot partition
 
--------------------------------------------------------------------
+---
 
 ### to enale ssh
 make empty file named ssh  
 $touch ssh
 
--------------------------------------------------------------------
+---
 
 ### to make user
 make file named userconf.txt  
@@ -21,8 +21,7 @@ username:encrypted-password
 to get encrypted password:  
 $echo 'mypassword' | openssl passwd -6 -stdin
 
--------------------------------------------------------------------
-
+---
 
 ### to setup wifi
 make file named wpa_supplicant.conf  
@@ -38,11 +37,11 @@ network={
     psk="password"  
 }
 
-------------------------------------------------------------------
+---
 
 **insert memory card into raspberry pi and power it up**
 
-------------------------------------------------------------------
+---
 
 ### to connect pi from ssh
 download net analyzer app in phone  
@@ -54,7 +53,7 @@ then connect ssh to that ip and username we set in above steps
 $ssh username@ip  
 password  
 
------------------------------------------------------------------
+---
 
 ### make python virtual environment
 $pip3 install virtualenv virtualenvwrapper  
@@ -71,13 +70,19 @@ export VIRTUALENVWRAPPER_ENV_BIN_DIR=bin
 $source ~/.bashrc
 
 **make vietual env**  
-$mkvirtualenv main
+$mkvirtualenv -p python3.8 envname
 
 **to activate env**  
 $workon main
 
-**reference** https://raspberrypi-guide.github.io/programming/create-python-virtual-environment
+[**raspberry pi reference**] (https://raspberrypi-guide.github.io/programming/create-python-virtual-environment)  
+[**python virtual wrapper reference**] (https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)
 
------------------------------------------------------------------
+---
+
+### run yolo
+
+
+---
 
 enjoy!!!
