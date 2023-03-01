@@ -45,6 +45,7 @@ network={
 
 ### to connect pi from ssh
 download net analyzer app in phone  
+(playstore link for net analyzer: https://play.google.com/store/apps/details?id=net.techet.netanalyzerlite.an)  
 scan LAN devices  
 there will be ip with name raspberry (wait up to 5 min or booting up raspberry)  
 then connect ssh to that ip and username we set in above steps  
